@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Contato | Norton Oliveira';
-$pageDescription = 'Entre em contato para diagnostico tecnico, retrofit e fabricacao industrial para fertilizantes.';
+$pageDescription = 'Entre em contato para diagnóstico técnico, retrofit e fabricação industrial para fertilizantes.';
 $activePage = 'contato';
 require __DIR__ . '/header.php';
 ?>
@@ -25,7 +25,7 @@ require __DIR__ . '/header.php';
                     <div class="contact-info-item wow fadeInUp">
                         <div class="contact-info-item-image">
                             <figure class="image-anime">
-                                <img src="images/servicos/Turnkey/turnkey-02.jpeg" alt="Atendimento tecnico por WhatsApp">
+                                <img src="images/servicos/Turnkey/turnkey-02.jpeg" alt="Atendimento técnico por WhatsApp">
                             </figure>
                         </div>
                         <div class="contact-info-item-body">
@@ -87,7 +87,7 @@ require __DIR__ . '/header.php';
                         <h3>Horario de atendimento</h3>
                         <ul>
                             <li>Segunda a sexta: 08:00 as 18:00</li>
-                            <li>Atendimento tecnico programado em campo</li>
+                            <li>Atendimento técnico programado em campo</li>
                         </ul>
                     </div>
                 </div>
@@ -97,9 +97,9 @@ require __DIR__ . '/header.php';
                 <div class="contact-us-form">
                     <div class="section-title">
                         <span class="section-sub-title wow fadeInUp">Fale com nosso time</span>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Envie sua demanda tecnica</h2>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Envie sua demanda técnica</h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            Compartilhe capacidade atual, gargalos e cidade da planta. Retornamos com direcionamento tecnico inicial.
+                            Compartilhe capacidade atual, gargalos e cidade da planta. Retornamos com direcionamento técnico inicial.
                         </p>
                     </div>
 
@@ -127,7 +127,7 @@ require __DIR__ . '/header.php';
                                 </div>
 
                                 <div class="form-group col-md-12 mb-4">
-                                    <input type="text" name="assunto" class="form-control" id="assunto" placeholder="Assunto (diagnostico, retrofit, equipamento)">
+                                    <input type="text" name="assunto" class="form-control" id="assunto" placeholder="Assunto (diagnóstico, retrofit, equipamento)">
                                     <div class="help-block with-errors"></div>
                                 </div>
 
@@ -155,7 +155,7 @@ require __DIR__ . '/header.php';
             <div class="col-lg-12">
                 <div class="section-title section-title-center">
                     <span class="section-sub-title wow fadeInUp">Atendimento nacional</span>
-                    <h2 class="text-anime-style-3" data-cursor="-opaque">Base no Brasil, execucao em campo</h2>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Base no Brasil, execução em campo</h2>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Equipamentos | Norton Oliveira';
-$pageDescription = 'Equipamentos industriais para fertilizantes com foco em estabilidade, vazao e durabilidade.';
+$pageDescription = 'Equipamentos industriais para fertilizantes com foco em estabilidade, vazão e durabilidade.';
 $activePage = 'equipamentos';
 require __DIR__ . '/header.php';
 ?>
@@ -13,11 +13,11 @@ require __DIR__ . '/header.php';
                     <span class="section-sub-title wow fadeInUp">Linha de equipamentos</span>
                     <h1 class="text-anime-style-3" data-cursor="-opaque">Equipamentos para reduzir gargalos e estabilizar sua planta</h1>
                     <p class="wow fadeInUp" data-wow-delay="0.2s">
-                        Projetamos e entregamos equipamentos para fertilizantes considerando fluxo real, abrasao, manutencao e operacao continua.
+                        Projetamos e entregamos equipamentos para fertilizantes considerando fluxo real, abrasão, manutenção e operação contínua.
                     </p>
                 </div>
                 <div class="hero-content-footer wow fadeInUp" data-wow-delay="0.4s">
-                    <a href="contato.php" class="btn-default">Solicitar especificacao tecnica</a>
+                    <a href="contato.php" class="btn-default">Solicitar especificação técnica</a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -35,7 +35,7 @@ require __DIR__ . '/header.php';
             <div class="col-lg-12">
                 <div class="section-title section-title-center">
                     <span class="section-sub-title wow fadeInUp">Equipamentos em destaque</span>
-                    <h2 class="text-anime-style-3" data-cursor="-opaque">Solucoes robustas para cada etapa do processo</h2>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Soluções robustas para cada etapa do processo</h2>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@ require __DIR__ . '/header.php';
                     <figure class="equip-card-media"><img src="images/equipamentos/elevador.jpg" alt="Elevador de canecas"></figure>
                     <div class="equip-card-body">
                         <h3>Elevador de canecas</h3>
-                        <p>Transporte vertical com confiabilidade para operacao continua.</p>
+                        <p>Transporte vertical com confiabilidade para operação contínua.</p>
                     </div>
                 </article>
             </div>
@@ -105,11 +105,11 @@ require __DIR__ . '/header.php';
             <div class="col-lg-8">
                 <div class="section-title">
                     <h2 class="text-anime-style-3" data-cursor="-opaque">Precisa especificar um equipamento para sua planta?</h2>
-                    <p>Receba recomendacao tecnica com foco em vazao, abrasao e disponibilidade operacional.</p>
+                    <p>Receba recomendação técnica com foco em vazão, abrasão e disponibilidade operacional.</p>
                 </div>
             </div>
             <div class="col-lg-4 text-lg-end">
-                <a href="contato.php" class="btn-default">Solicitar analise</a>
+                <a href="contato.php" class="btn-default">Solicitar análise</a>
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 <?php
-$pageTitle = 'Fotos e Videos | Norton Oliveira';
-$pageDescription = 'Galeria de fotos e registros de campo dos servicos industriais da Norton Oliveira.';
+$pageTitle = 'Fotos e Vídeos | Norton Oliveira';
+$pageDescription = 'Galeria de fotos e registros de campo dos serviços industriais da Norton Oliveira.';
 $activePage = 'fotos-videos';
 require __DIR__ . '/header.php';
 
@@ -11,18 +11,18 @@ $fotos = [
     ['src' => 'images/servicos/Turnkey/turnkey-04.jpeg', 'alt' => 'Detalhe de estrutura turnkey', 'cat' => 'Turnkey'],
     ['src' => 'images/servicos/Montagem industrial/IMG_5920.JPG', 'alt' => 'Montagem industrial em campo', 'cat' => 'Montagem'],
     ['src' => 'images/servicos/Montagem industrial/IMG-20150506-WA0000.jpg', 'alt' => 'Equipe em montagem de equipamento', 'cat' => 'Montagem'],
-    ['src' => 'images/servicos/Montagem industrial/IMG-20150507-WA0005.jpg', 'alt' => 'Montagem e ajustes mecanicos', 'cat' => 'Montagem'],
+    ['src' => 'images/servicos/Montagem industrial/IMG-20150507-WA0005.jpg', 'alt' => 'Montagem e ajustes mecânicos', 'cat' => 'Montagem'],
     ['src' => 'images/servicos/Recondicionamento misturador rotativo/IMG_0447.JPG', 'alt' => 'Recondicionamento de misturador rotativo', 'cat' => 'Recondicionamento'],
     ['src' => 'images/servicos/Recondicionamento misturador rotativo/IMG_0451.JPG', 'alt' => 'Reparo estrutural de misturador', 'cat' => 'Recondicionamento'],
-    ['src' => 'images/servicos/Recondicionamento misturador rotativo/IMG_0452.JPG', 'alt' => 'Detalhe tecnico de recondicionamento', 'cat' => 'Recondicionamento'],
-    ['src' => 'images/servicos/Recondicionamento misturador rotativo/IMG_0455.JPG', 'alt' => 'Servico de recuperacao de equipamento', 'cat' => 'Recondicionamento'],
-    ['src' => 'images/servicos/Recondicionamento misturador rotativo/IMG_5766.JPG', 'alt' => 'Equipamento recondicionado pronto para operacao', 'cat' => 'Recondicionamento'],
+    ['src' => 'images/servicos/Recondicionamento misturador rotativo/IMG_0452.JPG', 'alt' => 'Detalhe técnico de recondicionamento', 'cat' => 'Recondicionamento'],
+    ['src' => 'images/servicos/Recondicionamento misturador rotativo/IMG_0455.JPG', 'alt' => 'Serviço de recuperação de equipamento', 'cat' => 'Recondicionamento'],
+    ['src' => 'images/servicos/Recondicionamento misturador rotativo/IMG_5766.JPG', 'alt' => 'Equipamento recondicionado pronto para operação', 'cat' => 'Recondicionamento'],
 ];
 
 $videos = [
     ['thumb' => 'images/servicos/Turnkey/turnkey-05.jpeg', 'title' => 'Turnkey em campo'],
     ['thumb' => 'images/servicos/Montagem industrial/IMG-20150430-WA0001.jpg', 'title' => 'Montagem industrial'],
-    ['thumb' => 'images/servicos/Recondicionamento misturador rotativo/IMG_0452.JPG', 'title' => 'Recondicionamento tecnico'],
+    ['thumb' => 'images/servicos/Recondicionamento misturador rotativo/IMG_0452.JPG', 'title' => 'Recondicionamento técnico'],
 ];
 ?>
 
@@ -31,8 +31,8 @@ $videos = [
         <div class="row align-items-center">
             <div class="col-lg-8">
                 <div class="section-title">
-                    <span class="section-sub-title wow fadeInUp">Galeria tecnica</span>
-                    <h1 class="text-anime-style-3" data-cursor="-opaque">Fotos e videos dos servicos executados</h1>
+                    <span class="section-sub-title wow fadeInUp">Galeria técnica</span>
+                    <h1 class="text-anime-style-3" data-cursor="-opaque">Fotos e vídeos dos serviços executados</h1>
                     <p class="wow fadeInUp" data-wow-delay="0.2s">
                         Registros reais de montagem, retrofit, recondicionamento e entregas turnkey para plantas de fertilizantes.
                     </p>
@@ -75,9 +75,9 @@ $videos = [
         <div class="row section-row">
             <div class="col-lg-12">
                 <div class="section-title section-title-center">
-                    <span class="section-sub-title wow fadeInUp">Videos</span>
+                    <span class="section-sub-title wow fadeInUp">Vídeos</span>
                     <h2 class="text-anime-style-3" data-cursor="-opaque">Registros em video das frentes de servico</h2>
-                    <p>As capas abaixo representam os tipos de execucao. Para receber os videos completos, solicite no WhatsApp.</p>
+                    <p>As capas abaixo representam os tipos de execução. Para receber os vídeos completos, solicite no WhatsApp.</p>
                 </div>
             </div>
         </div>

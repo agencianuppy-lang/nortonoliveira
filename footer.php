@@ -5,7 +5,7 @@
                     <div class="about-footer">
                         <div class="about-footer-content">
                             <h2>Norton Oliveira</h2>
-                            <p>Reengenharia, retrofit e fabricacao industrial para a industria de fertilizantes.</p>
+                            <p>Reengenharia, retrofit e fabricação industrial para a indústria de fertilizantes.</p>
                         </div>
                     </div>
                 </div>
@@ -15,11 +15,11 @@
                         <div class="footer-links footer-quick-links">
                             <h3>Mapa do Site</h3>
                             <ul>
-                                <li><a href="index.php">Inicio</a></li>
+                                <li><a href="index.php">Início</a></li>
                                 <li><a href="sobre.php">Quem somos</a></li>
-                                <li><a href="servicos.php">Servicos</a></li>
+                                <li><a href="servicos.php">Serviços</a></li>
                                 <li><a href="equipamentos.php">Equipamentos</a></li>
-                                <li><a href="fotos-videos.php">Fotos e Videos</a></li>
+                                <li><a href="fotos-videos.php">Fotos e Vídeos</a></li>
                                 <li><a href="contato.php">Contato</a></li>
                             </ul>
                         </div>

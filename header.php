@@ -1,6 +1,6 @@
 <?php
 $pageTitle = $pageTitle ?? 'Norton Oliveira';
-$pageDescription = $pageDescription ?? 'Reengenharia, retrofit e fabricacao industrial para fertilizantes.';
+$pageDescription = $pageDescription ?? 'Reengenharia, retrofit e fabricação industrial para fertilizantes.';
 $activePage = $activePage ?? '';
 ?>
 <!DOCTYPE html>
@@ -42,18 +42,18 @@ $activePage = $activePage ?? '';
         <div class="header-sticky bg-section">
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
-                    <a class="navbar-brand" href="index.php" aria-label="Ir para a pagina inicial">
+                    <a class="navbar-brand" href="index.php" aria-label="Ir para a página inicial">
                         <img src="images/norton-logo.png" class="brand-logo" alt="Norton Oliveira">
                     </a>
 
                     <div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link <?php echo $activePage === 'home' ? 'active' : ''; ?>" href="index.php">Inicio</a></li>
+                                <li class="nav-item"><a class="nav-link <?php echo $activePage === 'home' ? 'active' : ''; ?>" href="index.php">Início</a></li>
                                 <li class="nav-item"><a class="nav-link <?php echo $activePage === 'sobre' ? 'active' : ''; ?>" href="sobre.php">Quem somos</a></li>
-                                <li class="nav-item"><a class="nav-link <?php echo $activePage === 'servicos' ? 'active' : ''; ?>" href="servicos.php">Servicos</a></li>
+                                <li class="nav-item"><a class="nav-link <?php echo $activePage === 'servicos' ? 'active' : ''; ?>" href="servicos.php">Serviços</a></li>
                                 <li class="nav-item"><a class="nav-link <?php echo $activePage === 'equipamentos' ? 'active' : ''; ?>" href="equipamentos.php">Equipamentos</a></li>
-                                <li class="nav-item"><a class="nav-link <?php echo $activePage === 'fotos-videos' ? 'active' : ''; ?>" href="fotos-videos.php">Fotos e Videos</a></li>
+                                <li class="nav-item"><a class="nav-link <?php echo $activePage === 'fotos-videos' ? 'active' : ''; ?>" href="fotos-videos.php">Fotos e Vídeos</a></li>
                                 <li class="nav-item"><a class="nav-link <?php echo $activePage === 'contato' ? 'active' : ''; ?>" href="contato.php">Contato</a></li>
                             </ul>
                         </div>

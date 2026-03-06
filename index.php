@@ -1,6 +1,6 @@
 ﻿<?php
-$pageTitle = 'Norton Oliveira | Solucoes industriais para fertilizantes';
-$pageDescription = 'Diagnostico tecnico, retrofit e fabricacao sob medida para industria de fertilizantes.';
+$pageTitle = 'Norton Oliveira | Soluções industriais para fertilizantes';
+$pageDescription = 'Diagnóstico técnico, retrofit e fabricação sob medida para indústria de fertilizantes.';
 $activePage = 'home';
 require __DIR__ . '/header.php';
 ?>
@@ -18,17 +18,17 @@ require __DIR__ . '/header.php';
                             </span>
 
                             <h1 class="text-anime-style-3" data-cursor="-opaque">
-                                Solucoes industriais para fertilizantes.
+                                Soluções industriais para fertilizantes.
                             </h1>
                             <h3 class="text-anime-style-3" style="    color: #c7f268;
     margin-top: 2rem;
     margin-bottom: 2rem;">Mais capacidade, menos paradas.</h3>
 
                                                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Quando a linha trava, entope ou desgasta rapido, o prejuizo aparece na producao.
-                                Fazemos diagnostico tecnico em campo e entregamos retrofit, recondicionamento e
-                                fabricacao sob medida
-                                para eliminar gargalos e aumentar capacidade com intervencao planejada.
+                                Quando a linha trava, entope ou desgasta rápido, o prejuízo aparece na produção.
+                                Fazemos diagnóstico técnico em campo e entregamos retrofit, recondicionamento e
+                                fabricação sob medida
+                                para eliminar gargalos e aumentar capacidade com intervenção planejada.
                             </p>
                         </div>
 
@@ -36,10 +36,10 @@ require __DIR__ . '/header.php';
 
                             <div class="hero-body-item">
                                 <div class="icon-box">
-                                    <img src="images/icon-hero-body-item-1.svg" alt="Diagnostico tecnico em campo">
+                                    <img src="images/icon-hero-body-item-1.svg" alt="Diagnóstico técnico em campo">
                                 </div>
                                 <div class="hero-body-item-content">
-                                    <h2>Diagnostico tecnico</h2>
+                                    <h2>Diagnóstico técnico</h2>
                                 </div>
                             </div>
 
@@ -48,7 +48,7 @@ require __DIR__ . '/header.php';
                                     <img src="images/icon-hero-body-item-2.svg" alt="Caldeiraria pesada e durabilidade">
                                 </div>
                                 <div class="hero-body-item-content">
-                                    <h2>Estrutura robusta para abrasao</h2>
+                                    <h2>Estrutura robusta para abrasão</h2>
                                 </div>
                             </div>
 
@@ -112,26 +112,26 @@ require __DIR__ . '/header.php';
                             </span>
 
                             <h2 class="text-anime-style-3" data-cursor="-opaque">
-                                Engenharia aplicada a performance industrial
+                                Engenharia aplicada à performance industrial
                             </h2>
 
                                                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Quando a linha trava, entope ou desgasta rapido, o prejuizo aparece na producao.
-                                Fazemos diagnostico tecnico em campo e entregamos retrofit, recondicionamento e
-                                fabricacao sob medida
-                                para eliminar gargalos e aumentar capacidade com intervencao planejada.
+                                Quando a linha trava, entope ou desgasta rápido, o prejuízo aparece na produção.
+                                Fazemos diagnóstico técnico em campo e entregamos retrofit, recondicionamento e
+                                fabricação sob medida
+                                para eliminar gargalos e aumentar capacidade com intervenção planejada.
                             </p>
                                                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Quando a linha trava, entope ou desgasta rapido, o prejuizo aparece na producao.
-                                Fazemos diagnostico tecnico em campo e entregamos retrofit, recondicionamento e
-                                fabricacao sob medida
-                                para eliminar gargalos e aumentar capacidade com intervencao planejada.
+                                Quando a linha trava, entope ou desgasta rápido, o prejuízo aparece na produção.
+                                Fazemos diagnóstico técnico em campo e entregamos retrofit, recondicionamento e
+                                fabricação sob medida
+                                para eliminar gargalos e aumentar capacidade com intervenção planejada.
                             </p>
                                                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Quando a linha trava, entope ou desgasta rapido, o prejuizo aparece na producao.
-                                Fazemos diagnostico tecnico em campo e entregamos retrofit, recondicionamento e
-                                fabricacao sob medida
-                                para eliminar gargalos e aumentar capacidade com intervencao planejada.
+                                Quando a linha trava, entope ou desgasta rápido, o prejuízo aparece na produção.
+                                Fazemos diagnóstico técnico em campo e entregamos retrofit, recondicionamento e
+                                fabricação sob medida
+                                para eliminar gargalos e aumentar capacidade com intervenção planejada.
                             </p>
                         </div>
                         <!-- Section Title End -->
@@ -148,7 +148,7 @@ require __DIR__ . '/header.php';
                                 </div>
                                 <div class="about-counter-box-content">
                                     <h2><span class="counter">25</span>+</h2>
-                                    <p>Anos atuando na industria de fertilizantes com mais de 100 projetos executados.
+                                    <p>Anos atuando na indústria de fertilizantes com mais de 100 projetos executados.
                                     </p>
                                 </div>
                             </div>
@@ -162,14 +162,14 @@ require __DIR__ . '/header.php';
                                         direto na capacidade produtiva.
                                     </p>
                                     <ul>
-                                        <li>Diagnostico de causa raiz</li>
-                                        <li>Solucoes de engenharia</li>
-                                        <li>Atencao a pontos criticos</li>
+                                        <li>Diagnóstico de causa raiz</li>
+                                        <li>Soluções de engenharia</li>
+                                        <li>Atenção a pontos críticos</li>
                                     </ul>
                                 </div>
                                 <div class="about-us-info-btn">
-                                    <a href="sobre.html" class="btn-default">
-                                        Conheca Nossa Atuacao
+                                    <a href="sobre.php" class="btn-default">
+                                        Conheça Nossa Atuação
                                     </a>
                                 </div>
                             </div>
@@ -339,7 +339,7 @@ require __DIR__ . '/header.php';
 
                         <p>
                             Quer reduzir paradas e aumentar a performance da sua planta?
-                            <a href="contato.html">Solicite um diagnóstico técnico</a>
+                            <a href="contato.php">Solicite um diagnóstico técnico</a>
                         </p>
 
                     </div>
@@ -366,10 +366,10 @@ require __DIR__ . '/header.php';
                                 Engenharia prática, diagnóstico preciso e execução robusta
                             </h2>
                                                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Quando a linha trava, entope ou desgasta rapido, o prejuizo aparece na producao.
-                                Fazemos diagnostico tecnico em campo e entregamos retrofit, recondicionamento e
-                                fabricacao sob medida
-                                para eliminar gargalos e aumentar capacidade com intervencao planejada.
+                                Quando a linha trava, entope ou desgasta rápido, o prejuízo aparece na produção.
+                                Fazemos diagnóstico técnico em campo e entregamos retrofit, recondicionamento e
+                                fabricação sob medida
+                                para eliminar gargalos e aumentar capacidade com intervenção planejada.
                             </p>
                         </div>
 
@@ -573,7 +573,7 @@ require __DIR__ . '/header.php';
                     <div class="company-supports-slider-box wow fadeInUp" data-wow-delay="0.2s">
                         <div class="company-supports-content">
                             <hr>
-                            <h3>Do diagnostico ao equipamento operando: solucao completa para a sua planta</h3>
+                            <h3>Do diagnóstico ao equipamento operando: solução completa para a sua planta</h3>
                             <hr>
                         </div>
                     </div>
@@ -740,10 +740,10 @@ require __DIR__ . '/header.php';
                                 Do diagnóstico ao equipamento operando: processo técnico para resultado produtivo
                             </h2>
                                                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Quando a linha trava, entope ou desgasta rapido, o prejuizo aparece na producao.
-                                Fazemos diagnostico tecnico em campo e entregamos retrofit, recondicionamento e
-                                fabricacao sob medida
-                                para eliminar gargalos e aumentar capacidade com intervencao planejada.
+                                Quando a linha trava, entope ou desgasta rápido, o prejuízo aparece na produção.
+                                Fazemos diagnóstico técnico em campo e entregamos retrofit, recondicionamento e
+                                fabricação sob medida
+                                para eliminar gargalos e aumentar capacidade com intervenção planejada.
                             </p>
                         </div>
                         <!-- Section Title End -->
@@ -874,7 +874,7 @@ require __DIR__ . '/header.php';
                                         produtivo.</p>
                                 </div>
                                 <div class="pricing-item-btn">
-                                    <a href="contato.html" class="btn-default">Solicitar diagnostico tecnico</a>
+                                    <a href="contato.php" class="btn-default">Solicitar diagnóstico técnico</a>
                                 </div>
                             </div>
 
@@ -912,7 +912,7 @@ require __DIR__ . '/header.php';
                                         trocar tudo.</p>
                                 </div>
                                 <div class="pricing-item-btn">
-                                    <a href="servicos.html" class="btn-default">Ver serviços</a>
+                                    <a href="servicos.php" class="btn-default">Ver serviços</a>
                                 </div>
                             </div>
 
@@ -1003,12 +1003,12 @@ require __DIR__ . '/header.php';
             <div class="row align-items-center">
                 <div class="col-lg-8">
                     <div class="section-title">
-                        <h1 class="text-anime-style-3" data-cursor="-opaque">Solucoes industriais para fertilizantes.</h1>
-                        <p>Diagnostico tecnico em campo para eliminar gargalos, reduzir entupimentos e aumentar capacidade produtiva.</p>
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">Soluções industriais para fertilizantes.</h1>
+                        <p>Diagnóstico técnico em campo para eliminar gargalos, reduzir entupimentos e aumentar capacidade produtiva.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 text-lg-end">
-                    <a href="contato.html" class="btn-default">Solicitar diagnostico tecnico</a>
+                    <a href="contato.php" class="btn-default">Solicitar diagnóstico técnico</a>
                 </div>
             </div>
         </div>

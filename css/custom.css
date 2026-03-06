@@ -13013,10 +13013,10 @@ header.main-header .header-sticky.active{
     font-weight: 600;
     text-transform: capitalize;
     line-height: normal;
-    background-color: #ffffff;
+    background-color: var(--secondary-color);
     border-radius: 100px;
-    padding: 9px 16px 8px 34px;
-    margin-top: 6rem;
+    padding: 8px 16px 8px 34px;
+    margin-top: 5rem;
     margin-bottom: 15px;
 }
 
@@ -13105,6 +13105,25 @@ header.main-header .header-sticky.active{
 .fotos-videos-hero .section-title h1,
 .fotos-videos-hero .section-title p {
     color: #fff;
+}
+
+.fotos-videos-hero .section-title {
+    margin-bottom: 40px;
+    padding-top: 10rem;
+}
+
+.fotos-videos-hero .section-title .section-sub-title {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: normal;
+    background-color: var(--secondary-color);
+    border-radius: 100px;
+    padding: 8px 16px 8px 34px;
+    margin-bottom: 15px;
+    margin-top: 2rem;
 }
 
 .galeria-categoria {
