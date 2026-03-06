@@ -71,7 +71,6 @@
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/SmoothScroll.js"></script>
     <script src="js/parallaxie.js"></script>
     <script src="js/gsap.min.js"></script>
     <script src="js/SplitText.min.js"></script>
