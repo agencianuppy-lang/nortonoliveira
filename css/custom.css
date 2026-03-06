@@ -393,7 +393,7 @@ a:focus{
 	background-color: var(--primary-color);
 	background-image: url('../images/dark-section-bg-image.png');
 	background-repeat: no-repeat;
-	background-position: top center;
+	background-position: bottom;
 	background-size: cover;
 }
 
@@ -443,7 +443,8 @@ a:focus{
 	background-color: var(--secondary-color);
 	border-radius: 100px;
 	padding: 8px 16px 8px 34px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	margin-top: 13rem;
 }
 
 .section-title .section-sub-title::before{
@@ -459,7 +460,7 @@ a:focus{
 }
 
 .section-title h1{
-	font-size: 66px;
+	font-size: 55px;
 	margin-bottom: 0;
 	cursor: none;
 }
@@ -782,7 +783,7 @@ header.main-header .header-sticky.active{
 .hero{
 	position: relative;
 	padding: 300px 0 150px;
-	background-image: url('../images/hero-bg-image.jpg');
+	background-image: url('../images/hero-bg-servicos.jpg');
 	margin-top: 20px;
 	overflow: hidden;
 }
@@ -1024,12 +1025,22 @@ header.main-header .header-sticky.active{
 
 .about-us-image.image-1{
 	position: relative;
-	background: url('../images/about-us-bg-image.png') no-repeat;
-	background-position: top left;
-	background-size: 240px auto;
 	align-content: end;
 	margin-bottom: 80px;
 	z-index: 1;
+}
+
+.about-us-image.image-1::before{
+	content: "\f013";
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	font-size: 120px;
+	line-height: 1;
+	color: rgba(16, 64, 54, 0.12);
+	z-index: -1;
 }
 
 .about-us-image.image-2{
@@ -1815,8 +1826,10 @@ header.main-header .header-sticky.active{
 
 .protection-item-image img{
 	width: 100%;
-	max-width: 220px;
+	max-width: 230px;
 	border-radius: 50%;
+	height: 15rem;
+	object-fit: cover;
 }
 
 .protection-item-content h3{
@@ -1870,7 +1883,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-process{
-	padding: 100px 0;
+	padding: 70px 0;
 }
 
 .our-process-content{
@@ -3783,7 +3796,7 @@ header.main-header .header-sticky.active{
 }
 
 .service-entry{
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .service-entry p{
@@ -3837,14 +3850,14 @@ header.main-header .header-sticky.active{
 .service-info-box,
 .service-process-box,
 .service-treatment-box{
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 .service-entry-image-content{
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
-	margin-top: 40px;
+	margin-top: 24px;
 }
 
 .service-entry-item-list,
@@ -3939,7 +3952,7 @@ header.main-header .header-sticky.active{
 	display: flex;
     flex-wrap: wrap;
     gap: 30px;
-	margin-top: 40px;
+	margin-top: 24px;
 }
 
 .service-process-item{
@@ -5608,7 +5621,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.protection-item-image img{
-		max-width: 180px;
+		max-width: 230px;
 	}
 
 	.process-step-item-list{
@@ -7072,7 +7085,7 @@ header.main-header .header-sticky.active{
     }
 
 	.protection-item-image img{
-        max-width: 140px;
+        max-width: 230px;
     }
 
 	.protection-item-content h3{
@@ -12795,3 +12808,391 @@ header.main-header .header-sticky.active{
         width: 14px;
     }
 }
+
+.our-contact-us {
+    background: #ffffff;
+    padding: 4rem 0;
+}
+
+.sobre-fotos {
+    padding: 100px 0;
+}
+
+.sobre-foto-card {
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.sobre-foto-media {
+    margin: 0;
+    height: 320px;
+}
+
+.sobre-foto-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.sobre-foto-content {
+    padding: 24px 24px 28px;
+}
+
+.sobre-foto-content h3 {
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+
+.sobre-foto-content p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .sobre-fotos {
+        padding: 70px 0;
+    }
+
+    .sobre-foto-media {
+        height: 250px;
+    }
+
+    .sobre-foto-content h3 {
+        font-size: 22px;
+    }
+}
+
+.equipamentos-hero {
+    padding: 110px 0 70px;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../images/servicos/Turnkey/turnkey-main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.equipamentos-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(270deg, rgba(3, 63, 45, 0.35) 20%, rgba(3, 63, 45, 0.92) 84%);
+    z-index: 1;
+}
+
+.equipamentos-hero > .container {
+    position: relative;
+    z-index: 2;
+}
+
+.equipamentos-hero .section-title h1,
+.equipamentos-hero .section-title h2,
+.equipamentos-hero .section-title p {
+    color: #fff;
+}
+
+.equipamentos-hero-image {
+    margin: 0;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.equipamentos-hero-image img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    display: block;
+}
+
+.equipamentos-grid {
+    padding: 30px 0 90px;
+}
+
+.equip-card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.equip-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.12);
+}
+
+.equip-card-media {
+    margin: 0;
+    height: 260px;
+}
+
+.equip-card-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.equip-card-body {
+    padding: 22px 22px 26px;
+}
+
+.equip-card-body h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.equip-card-body p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .equipamentos-hero-image img {
+        height: 420px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .equipamentos-hero {
+        padding: 90px 0 50px;
+    }
+
+    .equipamentos-grid {
+        padding: 20px 0 70px;
+    }
+
+    .equipamentos-hero-image img,
+    .equip-card-media {
+        height: 230px;
+    }
+
+    .equip-card-body h3 {
+        font-size: 21px;
+    }
+}
+
+.servicos-hero {
+    padding: 110px 0 70px;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../images/servicos-page/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.servicos-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(270deg, rgba(3, 63, 45, 0.00) 19.79%, rgba(3, 63, 45, 0.95) 83.96%);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.servicos-hero > .container {
+    position: relative;
+    z-index: 2;
+}
+
+.servicos-hero .section-title .section-sub-title {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: normal;
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding: 9px 16px 8px 34px;
+    margin-top: 6rem;
+    margin-bottom: 15px;
+}
+
+.servicos-hero .section-title h1,
+.servicos-hero .section-title h2,
+.servicos-hero .section-title p {
+    color: #ffffff;
+}
+
+.servicos-hero-image {
+    margin: 0;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.22);
+}
+
+.servicos-hero-image img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    display: block;
+}
+
+.servicos-grid {
+    padding: 30px 0 60px;
+}
+
+.servico-card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    height: 100%;
+}
+
+.servico-card-media {
+    margin: 0;
+    height: 250px;
+}
+
+.servico-card-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.servico-card-body {
+    padding: 22px 22px 26px;
+}
+
+.servico-card-body h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.servico-card-body p {
+    margin: 0;
+}
+
+.fotos-videos-hero {
+    padding: 130px 0 70px;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../images/servicos/Turnkey/turnkey-main.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.fotos-videos-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(270deg, rgba(3, 63, 45, 0.25) 22%, rgba(3, 63, 45, 0.9) 84%);
+    z-index: 1;
+}
+
+.fotos-videos-hero > .container {
+    position: relative;
+    z-index: 2;
+}
+
+.fotos-videos-hero .section-title h1,
+.fotos-videos-hero .section-title p {
+    color: #fff;
+}
+
+.galeria-categoria {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #043b2e;
+    background: #c7f268;
+    border-radius: 999px;
+    padding: 6px 12px;
+}
+
+.video-thumb-title {
+    margin-top: 14px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.servicos-processo {
+    padding: 0 0 90px;
+    background-image: linear-gradient(rgba(4, 59, 46, 0.78), rgba(4, 59, 46, 0.78)), url('../images/servicos-page/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin: 0 15px 90px;
+    padding-top: 6rem;
+}
+
+.servico-step {
+    background: #fff;
+    border-radius: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 28px;
+    height: 100%;
+}
+
+.servico-step span {
+    display: inline-flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #c7f268;
+    color: #043b2e;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.servico-step h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.servico-step p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .servicos-hero-image img {
+        height: 420px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .servicos-hero {
+        padding: 90px 0 50px;
+    }
+
+    .servicos-grid {
+        padding: 20px 0 40px;
+    }
+
+    .servicos-processo {
+        padding: 0 0 70px;
+        margin: 0 10px 70px;
+    }
+
+    .servicos-hero-image img,
+    .servico-card-media {
+        height: 230px;
+    }
+
+    .servico-card-body h3,
+    .servico-step h3 {
+        font-size: 21px;
+    }
+}
+
