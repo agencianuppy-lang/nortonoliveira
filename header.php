@@ -1,6 +1,11 @@
 ﻿<?php
+ini_set('default_charset', 'UTF-8');
+if (!headers_sent()) {
+    header('Content-Type: text/html; charset=UTF-8');
+}
+
 $pageTitle = isset($pageTitle) ? $pageTitle : 'Norton Oliveira';
-$pageDescription = isset($pageDescription) ? $pageDescription : 'Reengenharia, retrofit e fabricacao industrial para fertilizantes.';
+$pageDescription = isset($pageDescription) ? $pageDescription : 'Reengenharia, retrofit e fabricação industrial para fertilizantes.';
 $activePage = isset($activePage) ? $activePage : '';
 ?>
 <!DOCTYPE html>
@@ -42,24 +47,24 @@ $activePage = isset($activePage) ? $activePage : '';
         <div class="header-sticky bg-section">
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
-                    <a class="navbar-brand" href="index.php" aria-label="Ir para a pÃ¡gina inicial">
+                    <a class="navbar-brand" href="index.php" aria-label="Ir para a página inicial">
                         <img src="images/norton-logo.png" class="brand-logo" alt="Norton Oliveira">
                     </a>
 
                     <div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link <?php echo $activePage = isset($activePage) ? $activePage : ''; ?>" href="index.php">InÃ­cio</a></li>
-                                <li class="nav-item"><a class="nav-link <?php echo $activePage = isset($activePage) ? $activePage : ''; ?>" href="sobre.php">Quem somos</a></li>
-                                <li class="nav-item"><a class="nav-link <?php echo $activePage = isset($activePage) ? $activePage : ''; ?>" href="servicos.php">ServiÃ§os</a></li>
-                                <li class="nav-item"><a class="nav-link <?php echo $activePage = isset($activePage) ? $activePage : ''; ?>" href="equipamentos.php">Equipamentos</a></li>
-                                <li class="nav-item"><a class="nav-link <?php echo $activePage = isset($activePage) ? $activePage : ''; ?>" href="fotos-videos.php">Fotos e VÃ­deos</a></li>
-                                <li class="nav-item"><a class="nav-link <?php echo $activePage = isset($activePage) ? $activePage : ''; ?>" href="contato.php">Contato</a></li>
+                                <li class="nav-item"><a class="nav-link <?php echo $activePage === 'home' ? 'active' : ''; ?>" href="index.php">Início</a></li>
+                                <li class="nav-item"><a class="nav-link <?php echo $activePage === 'sobre' ? 'active' : ''; ?>" href="sobre.php">Quem somos</a></li>
+                                <li class="nav-item"><a class="nav-link <?php echo $activePage === 'servicos' ? 'active' : ''; ?>" href="servicos.php">Serviços</a></li>
+                                <li class="nav-item"><a class="nav-link <?php echo $activePage === 'equipamentos' ? 'active' : ''; ?>" href="equipamentos.php">Equipamentos</a></li>
+                                <li class="nav-item"><a class="nav-link <?php echo $activePage === 'fotos-videos' ? 'active' : ''; ?>" href="fotos-videos.php">Fotos e Vídeos</a></li>
+                                <li class="nav-item"><a class="nav-link <?php echo $activePage === 'contato' ? 'active' : ''; ?>" href="contato.php">Contato</a></li>
                             </ul>
                         </div>
 
                         <div class="header-btn">
-                            <a href="https://wa.me/55SEUNUMEROAQUI?text=Ola!%20Quero%20um%20diagnostico%20tecnico%20para%20minha%20planta."
+                            <a href="https://wa.me/55SEUNUMEROAQUI?text=Olá!%20Quero%20um%20diagnóstico%20técnico%20para%20minha%20planta."
                                class="btn-default btn-highlighted" target="_blank" rel="noopener">
                                 Falar com especialista
                             </a>
@@ -72,5 +77,3 @@ $activePage = isset($activePage) ? $activePage : '';
             <div class="responsive-menu"></div>
         </div>
     </header>
-
-

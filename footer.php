@@ -1,4 +1,4 @@
-    <footer class="main-footer bg-section dark-section">
+﻿    <footer class="main-footer bg-section dark-section">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3">
@@ -28,7 +28,7 @@
                             <h3>Contato</h3>
                             <ul>
                                 <li>Atendimento Brasil (prioridade Centro-Oeste)</li>
-                                <li>Horario comercial (seg-sex)</li>
+                                <li>Horário comercial (seg-sex)</li>
                             </ul>
                             <div class="footer-contact-item-list">
                                 <div class="footer-contact-item">
