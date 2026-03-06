@@ -115,19 +115,7 @@ require __DIR__ . '/header.php';
                                 Engenharia aplicada à performance industrial
                             </h2>
 
-                                                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Quando a linha trava, entope ou desgasta rápido, o prejuízo aparece na produção.
-                                Fazemos diagnóstico técnico em campo e entregamos retrofit, recondicionamento e
-                                fabricação sob medida
-                                para eliminar gargalos e aumentar capacidade com intervenção planejada.
-                            </p>
-                                                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Quando a linha trava, entope ou desgasta rápido, o prejuízo aparece na produção.
-                                Fazemos diagnóstico técnico em campo e entregamos retrofit, recondicionamento e
-                                fabricação sob medida
-                                para eliminar gargalos e aumentar capacidade com intervenção planejada.
-                            </p>
-                                                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
                                 Quando a linha trava, entope ou desgasta rápido, o prejuízo aparece na produção.
                                 Fazemos diagnóstico técnico em campo e entregamos retrofit, recondicionamento e
                                 fabricação sob medida

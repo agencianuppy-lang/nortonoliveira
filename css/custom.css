@@ -444,7 +444,7 @@ a:focus{
 	border-radius: 100px;
 	padding: 8px 16px 8px 34px;
 	margin-bottom: 15px;
-	margin-top: 13rem;
+	margin-top: 0rem;
 }
 
 .section-title .section-sub-title::before{
@@ -808,6 +808,21 @@ header.main-header .header-sticky.active{
 
 .hero-content{
 	max-width: 740px;
+}
+
+.hero .section-title .section-sub-title{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: capitalize;
+	line-height: normal;
+	background-color: var(--secondary-color);
+	border-radius: 100px;
+	padding: 8px 16px 8px 34px;
+	margin-bottom: 0;
+	margin-top: 1rem;
+	color: #0a4434 !important;
 }
 
 .hero-body-item-list{
