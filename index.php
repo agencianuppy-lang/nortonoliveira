@@ -85,15 +85,15 @@ require __DIR__ . '/header.php';
 
                         <div class="about-us-image image-1">
                             <figure class="image-anime reveal">
-                                <img src="images/about-25-principal.jpg"
-                                    alt="Equipe técnica em campo realizando diagnóstico industrial">
+                                <img src="images/servicos-page/diagnostico.jpg"
+                                    alt="Diagnóstico técnico industrial em planta de fertilizantes">
                             </figure>
                         </div>
 
                         <div class="about-us-image image-2">
                             <figure class="image-anime reveal">
-                                <img src="images/about-25-secundaria.jpg"
-                                    alt="Equipamento industrial para fertilizantes em processo de fabricação">
+                                <img src="images/servicos-page/montagem.jpg"
+                                    alt="Montagem industrial de estruturas e equipamentos">
                             </figure>
                         </div>
 
