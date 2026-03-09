@@ -1018,13 +1018,16 @@ header.main-header .header-sticky.active{
 
 .about-us-image-box{
 	height: 100%;
+	position: relative;
 	display: flex;
 	flex-wrap: wrap;
+	align-content: flex-start;
 	margin-right: 15px;
+	padding-top: 20px;
 }
 
 .about-us-image{
-	width: 50%;
+	width: 100%;
 }
 
 .about-us-image figure{
@@ -1040,8 +1043,8 @@ header.main-header .header-sticky.active{
 
 .about-us-image.image-1{
 	position: relative;
-	align-content: end;
-	margin-bottom: 80px;
+	width: 78%;
+	margin-left: auto;
 	z-index: 1;
 }
 
@@ -1059,17 +1062,18 @@ header.main-header .header-sticky.active{
 }
 
 .about-us-image.image-2{
-	height: 100%;
+	width: 58%;
+	margin-top: -250px;
+	z-index: 2;
 }
 
 .about-us-image.image-2 figure{
-	height: 100%;
-	margin-left: -155px;
+	margin-left: 0;
 }
 
 .about-us-image.image-2 figure img{
-	height: 100%;
-	aspect-ratio: 1 / 1.265;
+	height: auto;
+	aspect-ratio: 4 / 3;
 }
 
 .about-us-content{
@@ -5838,6 +5842,15 @@ header.main-header .header-sticky.active{
 		margin: 0 0 30px;
 	}
 
+	.about-us-image.image-1{
+		width: 76%;
+	}
+
+	.about-us-image.image-2{
+		width: 62%;
+		margin-top: -190px;
+	}
+
 	.about-us-image.image-2,
 	.about-us-image.image-2 figure,
 	.about-us-image.image-2 figure img{
@@ -6987,11 +7000,17 @@ header.main-header .header-sticky.active{
 
 	.about-us-image.image-1{
 		background-size: 120px auto;
-		margin-bottom: 30px;
+		width: 100%;
+		margin-bottom: 0;
+	}
+
+	.about-us-image.image-2{
+		width: 100%;
+		margin-top: 20px;
 	}
 
 	.about-us-image.image-2 figure{
-		margin-left: -70px;
+		margin-left: 0;
 	}
 
 	.about-us-body-box{
